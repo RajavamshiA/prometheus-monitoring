@@ -11,13 +11,13 @@ wget https://github.com/prometheus/prometheus/releases/download/v3.5.0/prometheu
 
 * Extract tar file
 ```
-tar -xf prometheus-3.0.1.linux-amd64.tar.gz
+tar -xf prometheus-3.5.0.linux-amd64.tar.gz
 ```
 
 * Rename if required
 
 ```
-mv prometheus-3.0.1.linux-amd64 prometheus
+mv prometheus-3.5.0.linux-amd64 prometheus
 ```
 
 * Create systemctl service
