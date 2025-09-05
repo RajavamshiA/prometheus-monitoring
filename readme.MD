@@ -4,7 +4,7 @@
 
 Reference: https://prometheus.io/download/
 
-* Configuring prometheus inside EC2 Server
+### Configuring prometheus inside EC2 Server
 
 * move to /opt directory
 ```
