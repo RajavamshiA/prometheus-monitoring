@@ -4,6 +4,8 @@
 
 Reference: https://prometheus.io/download/
 
+* Configuring prometheus inside EC2 Server
+
 * move to /opt directory
 ```
 wget https://github.com/prometheus/prometheus/releases/download/v3.5.0/prometheus-3.5.0.linux-amd64.tar.gz
@@ -37,7 +39,7 @@ ExecStart=/opt/prometheus/prometheus --config.file=/opt/prometheus/prometheus.ym
 WantedBy=multi-user.target
 ```
 ```
-systemctl demon-reload
+systemctl daemon-reload
 ```
 ```
 systemctl enable prometheus
